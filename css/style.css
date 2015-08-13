@@ -1,0 +1,154 @@
+/*Reset CSS Styles*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+/*Header styles*/
+/*Navigation section*/
+.top-navigation {
+	position: fixed;
+	background-color:#478273;
+	line-height: 0.25rem;
+	width: 100%;
+}
+
+.top-navigation .content {
+	width: 1099px;
+	height: 4.375rem;
+	margin: 0 auto;
+	vertical-align: center;
+}
+
+.top-navigation ul {
+	text-align: center;
+}
+
+.top-navigation .links li {
+	font-family: 'Monda', sans-serif;
+	font-size: 2rem;
+	font-weight: lighter;
+	color: #fff;
+	display: inline-block;
+	padding: 1em 1em 1em;
+
+}
+
+.top-navigation .links li:hover {
+	color: #CCCCCC;
+}
+
+.top-navigation a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.top-navigation a:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+
+.top-navigation .active a {
+	color: #4D4D4D;
+}
+
+/*Content styles*/
+html {
+	background-image: url(https://images.unsplash.com/uploads/14120938606568dde6e2b/c9e42240?q=80&fm=jpg&s=4a423cc155668e10492e68fffbbb5d9a);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 40em;
+}
+
+.get-in-touch h1 {
+	padding-top: 4em;
+	padding-right: 1em;
+	padding-left: 1em;
+	font-family: 'Fugaz One', cursive;
+	color: #8DA9FF;
+	font-size: 2.5em;
+	font-weight: 100;
+	float: left;
+}
+
+.get-in-touch strong {
+font-size: 1m;
+color: #E65C5C;
+}
+
+.get-in-touch a {
+	color: #E65C5C;
+	font-size: 1.75em;
+	text-decoration: none;
+}
+
+.get-in-touch a:hover {
+	text-decoration: underline;
+	color: 2A7BB0;
+}
+
+.get-in-touch ul {
+	text-align: center;
+}
+
+.get-in-touch li {
+	display: inline-block;
+	vertical-align: center;
+	text-align: center;
+	padding-top: 7em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer styles*/
+/*Responsive CSS*/
