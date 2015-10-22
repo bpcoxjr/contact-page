@@ -124,8 +124,10 @@ time, mark, audio, video {
 }
 
 .chat a {
-	text-decoration: none;
+	font-size: 1.25em;
 	color: #FFFF85;
+	text-decoration: none;
+	text-shadow: none;
 }
 
 .chat a:hover {
