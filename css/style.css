@@ -100,7 +100,7 @@ time, mark, audio, video {
 
 .top-navigation a:hover {
 	text-decoration: none;
-	color: #CCCCCC;
+	color: black;
 }
 
 .top-navigation .active a {
@@ -124,8 +124,10 @@ time, mark, audio, video {
 }
 
 .chat a {
-	text-decoration: none;
+	font-size: 1.25em;
 	color: #FFFF85;
+	text-decoration: none;
+	text-shadow: none;
 }
 
 .chat a:hover {
