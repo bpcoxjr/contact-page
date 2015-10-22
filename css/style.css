@@ -100,7 +100,7 @@ time, mark, audio, video {
 
 .top-navigation a:hover {
 	text-decoration: none;
-	color: #CCCCCC;
+	color: black;
 }
 
 .top-navigation .active a {
