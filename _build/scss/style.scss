@@ -1,22 +1,4 @@
-/*Reset CSS Styles*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-}
+@import "base/reset";
 
 .banner { width:20%; margin:1em auto 2.5em; font-size:2em; font-family:"Fjalla One", sans-serif; line-height:1.75; text-transform:uppercase; z-index:1; -webkit-transform:skew(-5deg) rotate(-5deg); transform:skew(-5deg) rotate(-5deg); -webkit-backface-visibility:hidden; -webkit-font-smoothing: antialiased;}
 .ribbon { position:relative; background:#44758d; box-shadow:0 .5em 0 -.25em rgba(68,117,141,.4); padding:0 .5em .1em; color:#fff; text-align:center; } 
@@ -39,14 +21,16 @@ time, mark, audio, video {
 	
 }
 
-.title p {
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 2.75em;
-	-webkit-font-smoothing: antialiased;
-	color: #4D4D4D;
-	text-align: center;
-	margin-top: -1.25em;
-	margin-bottom: .3em;
+.title { 
+    p {
+    	font-family: 'Fjalla One', sans-serif;
+    	font-size: 2.75em;
+    	-webkit-font-smoothing: antialiased;
+    	color: #4D4D4D;
+    	text-align: center;
+    	margin-top: -1.25em;
+    	margin-bottom: .3em;
+    }
 }
 
 .content {
