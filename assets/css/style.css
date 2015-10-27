@@ -1,0 +1,325 @@
+/*Reset CSS Styles*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+.banner {
+  width: 20%;
+  margin: 1em auto 2.5em;
+  font-size: 2em;
+  font-family: "Fjalla One", sans-serif;
+  line-height: 1.75;
+  text-transform: uppercase;
+  z-index: 1;
+  -webkit-transform: skew(-5deg) rotate(-5deg);
+  transform: skew(-5deg) rotate(-5deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ribbon {
+  position: relative;
+  background: #44758d;
+  box-shadow: 0 0.5em 0 -0.25em rgba(68, 117, 141, 0.4);
+  padding: 0 .5em .1em;
+  color: #fff;
+  text-align: center;
+}
+
+.ribbon::before, .ribbon::after {
+  position: absolute;
+  display: block;
+  content: '';
+  border: .75em solid #44758d;
+  z-index: -1;
+}
+
+.ribbon::before {
+  top: -.5em;
+  left: -1.75em;
+  border-right-width: 2.5em;
+  border-left-color: transparent;
+}
+
+.ribbon::after {
+  bottom: -.5em;
+  right: -1.75em;
+  border-left-width: 2.5em;
+  border-right-color: transparent;
+}
+
+.ribbon-content::before, .ribbon-content::after {
+  position: absolute;
+  display: block;
+  content: '';
+  border-style: solid;
+}
+
+.ribbon-content::before {
+  top: -.5em;
+  left: 0;
+  border-width: 0 0 .5em 1.5em;
+  border-color: transparent transparent #1e4d64 transparent;
+}
+
+.ribbon-content::after {
+  bottom: -.5em;
+  right: 0;
+  border-width: .5em 1.5em 0 0;
+  border-color: #1e4d64 transparent transparent transparent;
+}
+
+.top-navigation {
+  position: static;
+  background-image: url(../images/binding_light.png);
+  line-height: 0.25rem;
+  width: 100%;
+  height: 3em;
+  padding-top: 2em;
+  border-bottom: 1.5px solid #4D4C58;
+}
+
+.title p {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2.75em;
+  -webkit-font-smoothing: antialiased;
+  color: #4D4D4D;
+  text-align: center;
+  margin-top: -1.25em;
+  margin-bottom: .3em;
+}
+
+.content {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.links a:hover {
+  color: #CCCCCC;
+}
+
+.links li {
+  display: inline-block;
+  padding-right: 2.5em;
+}
+
+.links li a {
+  display: inline-block;
+  text-align: right;
+}
+
+.links-left li {
+  display: inline-block;
+  float: left;
+}
+
+.links-left a {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5em;
+  -webkit-font-smoothing: antialiased;
+  padding-left: 2em;
+  float: left;
+}
+
+.links-right li {
+  display: inline-block;
+  float: right;
+}
+
+.links-right a {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-family: 'EB Garamond', serif;
+  font-size: 2.5em;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 2em;
+  float: right;
+}
+
+.top-navigation a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.top-navigation .active a {
+  color: #4D4D4D;
+}
+
+#thinkful {
+  color: #4D4D4D;
+}
+
+#jp {
+  color: #4D4D4D;
+}
+
+.chat {
+  background-image: url(../images/gray_sand.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 28em;
+  border-bottom: 1.5px solid #4C4D58;
+}
+
+.chat a {
+  font-size: 1.25em;
+  color: #FFFF85;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.chat a:hover {
+  text-decoration: underline;
+  color: #44758d;
+  text-shadow: 1px 1px #3D697F;
+}
+
+.letsChat {
+  font-family: 'HomemadeApple', cursive;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #FFFF85;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px #CCCC52;
+  text-align: left;
+  padding-top: 2.75em;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#contact_form {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-left: 5em;
+  box-sizing: border-box;
+}
+
+.row {
+  padding-top: 1em;
+}
+
+#contact_form label {
+  font-family: "EB Garamond", serif;
+  font-size: 1.75em;
+  color: #4D4D4D;
+}
+
+#contact_form input {
+  width: 40%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 1em;
+  border: solid 5px #c9c9c9;
+  box-shadow: inset 0 0 0 1px #707070;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+#contact_form textarea {
+  width: 40%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 1em;
+  border: solid 5px #c9c9c9;
+  box-shadow: inset 0 0 0 1px #707070;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+:-moz-placeholder {
+  color: #44758d;
+}
+
+::-webkit-input-placeholder {
+  font-size: 1em;
+  color: #44758d;
+}
+
+.input {
+  margin-top: 1em;
+}
+
+input[type="text"] {
+  font-size: 1em;
+  color: #4D4D4D;
+}
+
+textarea[type="text"] {
+  font-size: 1em;
+}
+
+#message {
+  width: 40%;
+}
+
+.submit {
+  padding-bottom: 2em;
+}
+
+#submit_button {
+  height: 35px;
+  width: 100px;
+  margin-top: 1em;
+  font-family: "EB Garamond", serif;
+  font-size: 1.5em;
+  color: #4D4D4D;
+}
+
+.twitter {
+  text-decoration: none;
+  color: #55acee;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 0.5em;
+  padding-left: .20em;
+}
+
+.linkedIn {
+  text-decoration: none;
+  color: #0077B5;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 0.5em;
+  padding-left: .20em;
+}
+
+.github {
+  text-decoration: none;
+  color: #4183c4;
+  -webkit-font-smoothing: antialiased;
+  padding-left: .20em;
+}
+
+.footer {
+  padding-bottom: 1em;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.25em;
+  color: #FFF;
+  -webkit-font-smoothing: antialiased;
+  background-image: url(../images/gray_sand.png);
+}
+
+.footer p {
+  padding-top: .65em;
+}
+
+.footer > p > i {
+  padding-right: .25em;
+}
+
+/*# sourceMappingURL=style.css.map */
